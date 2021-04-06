@@ -1,4 +1,45 @@
 /*font-family: 'Roboto', sans-serif;*/
-h1 {
+body {
   font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #282323;
+}
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24;
+  font-weight: bold;
+}
+p {
+  line-height: 2;
+  font-size: 18px;
+}
+.container {
+  width: 1440px;
+  height: 900px;
+  background-image: url("/images/Evgeny.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: block;
+  background-size: cover;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+.btn-outline a {
+  background-color: white;
+  border-radius: 50px;
+  color: #272142;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 15px 45px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
