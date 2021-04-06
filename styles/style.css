@@ -16,13 +16,16 @@ p {
   line-height: 2;
   font-size: 18px;
 }
-.container {
+img {
+  border-radius: 15px;
+  width: 386px;
+}
+.container-wraper {
   width: 1440px;
   height: 900px;
   background-image: url("/images/Evgeny.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: block;
   background-size: cover;
   text-align: center;
 }
@@ -42,4 +45,7 @@ p {
   padding: 15px 45px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+}
+.photoExample {
+  background-image: none;
 }
