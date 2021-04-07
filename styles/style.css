@@ -11,6 +11,11 @@ h2 {
   font-size: 24px;
   font-weight: bold;
 }
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f65282;
+}
 p {
   line-height: 2;
   font-size: 18px;
@@ -31,7 +36,7 @@ img {
 .centered {
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 61%;
   transform: translate(-50%, -50%);
 }
 .btn-outline a {
@@ -54,6 +59,7 @@ footer .socialLink a {
   transition: all 100ms ease-in-out;
   color: white;
 }
+
 .container-about {
   margin-top: 50px;
   background-color: black;
@@ -80,17 +86,22 @@ footer .socialLink a {
   margin-top: 60px;
   text-align: center;
 }
+.email-link {
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
-  h1 {
+  h1,
+  .wraper h1 {
     font-size: 40px;
   }
-  p {
+  p,
+  .wraper p {
     font-size: 30px;
     line-height: 1.5;
   }
   footer p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .container-wraper {
     background-image: none;
@@ -98,5 +109,12 @@ footer .socialLink a {
   }
   .centered {
     left: 50%;
+  }
+  .wraper {
+    text-align: center;
+  }
+  p.photoCamera {
+    max-width: 350px;
+    font-size: 22px;
   }
 }
