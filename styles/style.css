@@ -48,6 +48,13 @@ img {
 .photoExample {
   background-image: none;
 }
+footer .socialLink a {
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: white;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
@@ -55,6 +62,9 @@ img {
   p {
     font-size: 30px;
     line-height: 1.5;
+  }
+  footer p {
+    font-size: 16px;
   }
   .container-wraper {
     background-image: none;
