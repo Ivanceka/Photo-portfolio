@@ -54,6 +54,28 @@ footer .socialLink a {
   transition: all 100ms ease-in-out;
   color: white;
 }
+.container-about {
+  margin-top: 50px;
+  background-color: black;
+}
+.wraper h2 {
+  font-size: 18px;
+  color: #f65282;
+}
+.wraper h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.photoCamera {
+  font-weight: bold;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #282323;
+  border-radius: 4px;
+}
+.camera {
+  max-width: 70px;
+}
 
 @media (max-width: 768px) {
   h1 {
