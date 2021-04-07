@@ -1,4 +1,3 @@
-/*font-family: 'Roboto', sans-serif;*/
 body {
   font-family: "Roboto", sans-serif;
   color: white;
@@ -9,7 +8,7 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-size: 24;
+  font-size: 24px;
   font-weight: bold;
 }
 p {
@@ -21,7 +20,7 @@ img {
   width: 386px;
 }
 .container-wraper {
-  width: 1440px;
+  width: auto;
   height: 900px;
   background-image: url("/images/Evgeny.jpg");
   background-position: center;
@@ -48,4 +47,20 @@ img {
 }
 .photoExample {
   background-image: none;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .container-wraper {
+    background-image: none;
+    height: 600px;
+  }
+  .centered {
+    left: 50%;
+  }
 }
