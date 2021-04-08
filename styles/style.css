@@ -29,8 +29,6 @@ img {
   height: 900px;
   background-image: url("/images/Evgeny.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
 }
 .centered {
