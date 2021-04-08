@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: white;
-  background-color: #282323;
+  background-color: black;
 }
 h1 {
   font-size: 72px;
@@ -53,6 +53,10 @@ img {
 .photoExample {
   background-image: none;
 }
+footer {
+  background-color: #282323;
+}
+
 footer .socialLink a {
   font-size: 18px;
   text-decoration: none;
