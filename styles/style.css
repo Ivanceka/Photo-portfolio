@@ -34,11 +34,9 @@ img {
   text-align: center;
 }
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 61%;
-  transform: translate(-50%, -50%);
+  padding-top: 130px;
 }
+
 .btn-outline a {
   background-color: white;
   border-radius: 50px;
@@ -130,4 +128,6 @@ footer .socialLink a {
     max-width: 350px;
     font-size: 22px;
   }
+}
+@media (min-width: 900) {
 }
