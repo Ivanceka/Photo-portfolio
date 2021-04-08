@@ -89,6 +89,10 @@ footer .socialLink a {
 .email-link {
   text-decoration: none;
 }
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
 
 @media (max-width: 768px) {
   h1,
