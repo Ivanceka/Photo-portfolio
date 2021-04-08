@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: white;
-  background-color: black;
+  background-color: #282323;
 }
 h1 {
   font-size: 72px;
@@ -87,8 +87,14 @@ footer .socialLink a {
   max-width: 70px;
 }
 .container-galleryWraper {
-  margin-top: 60px;
+  margin-top: 55px;
+  padding-bottom: 20px;
   text-align: center;
+  background-color: black;
+}
+.photoExample {
+  background-color: black;
+  padding-bottom: 20px;
 }
 .email-link {
   text-decoration: none;
